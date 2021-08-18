@@ -1,5 +1,6 @@
 ### 🔗 Resume Link
 
+https://okolipraiz.github.io/hng-resume/
 
 ## Powered by;
 
