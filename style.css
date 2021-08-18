@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f9f5fc;
+  color: #937e7c;
+  font-family: "Roboto", sans-serif;
+  line-height: 48px;
+  font-size: 16px;
+}
+
+.main {
+  max-width: 70%;
+  margin: 0 auto;
+  display: flex;
+  padding: 10px 8px;
+  background-color: #fff;
+}
+
+.left {
+  background-color: #325283;
+  color: #fff;
+  width: 40%;
+  padding: 10px;
+  position: relative;
+}
+
+.image-container {
+  width: 90%;
+  height: 200px;
+  margin: 30px auto;
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 6px solid #fff;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin: 5px 0;
+}
+
+.right {
+  padding: 20px 50px;
+}
+
+.name {
+  padding: 20px 0;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #325283;
+  font-size: 2.5rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.underline {
+  height: 2px;
+  background-color: #828eca;
+  width: 200px;
+}
+
+.underline-name {
+  height: 3px;
+  background-color: #325283;
+  margin-top: 15px;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: #828eca;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.right h3 {
+  color: #828eca;
+}
+
+.right h4 {
+  font-size: 1.1rem;
+}
+
+.right h5 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.fa {
+  margin-right: 10px;
+}
+
+.link {
+  font-style: italic;
+  font-weight: 900;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.github-link {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 2px 10px;
+  border-radius: 30px;
+}
+
+.project-link {
+  color: #325283;
+}
+
+.address {
+  font-size: 1.2rem;
+}
+
+.footer {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+}
+
+.footer-img-container {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+.footer-img-container img {
+  width: 30%;
+  height: 55px;
+  border-radius: 5px;
+  margin: 5px;
+  object-fit: center;
+}
+
+.mobile-image-container {
+  display: none;
+}
+
+.mobile-skills,
+.mobile-skills {
+  display: none;
+}
+
+.contact-mobile {
+  display: none;
+}
+
+.footer-mobile {
+  display: none;
+}
+
+.print-name {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #325283;
+  font-weight: 900;
+}
+
+@media only screen and (max-width: 786px) {
+  body {
+    line-height: 32px;
+  }
+
+  .main {
+    max-width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 2px;
+  }
+
+  .left {
+    display: none;
+  }
+
+  .mobile-image-container {
+    display: block;
+    width: 60%;
+    height: 200px;
+    margin: 0 auto;
+  }
+
+  .profile-image {
+    border: 6px solid #325283;
+  }
+
+  h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin: 5px 0;
+  }
+
+  .right {
+    padding: 5px 15px;
+  }
+
+  .mobile-skills {
+    display: block;
+  }
+
+  .mobile-skills ul li {
+    list-style: none;
+  }
+
+  .name {
+    padding: 20px 0;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    letter-spacing: 0;
+    text-align: center;
+    margin: 20px auto;
+  }
+
+  .underline-name {
+    display: none;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0;
+  }
+
+  .right h3 {
+    color: #828eca;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+
+  .right h4 {
+    font-size: 1rem;
+  }
+
+  .right h5 {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .experience h4,
+  .education h4 {
+    text-transform: uppercase;
+    margin-top: 10px;
+  }
+
+  .contact-mobile {
+    display: block;
+  }
+
+  .github-link {
+    color: #325283;
+    border: 1px solid #325283;
+    padding: 2px 10px;
+    border-radius: 30px;
+  }
+
+  .footer-mobile {
+    display: block;
+    margin-top: 30px;
+  }
+
+  .footer-mobile .footer-img-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .footer-mobile .footer-img-container img {
+    width: 30%;
+  }
+}
