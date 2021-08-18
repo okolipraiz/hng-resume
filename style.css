@@ -23,10 +23,10 @@ body {
 }
 
 .left {
-  background-color: #325283;
+  background-color: #333;
   color: #fff;
-  width: 40%;
-  padding: 10px;
+  width: 70%;
+  padding: 20px;
   position: relative;
 }
 
@@ -38,10 +38,10 @@ body {
 
 .profile-image {
   width: 100%;
-  height: 100%;
+  height: 80%;
   object-fit: cover;
   border-radius: 50%;
-  border: 6px solid #fff;
+  box-shadow: #333;
 }
 
 h3 {
@@ -61,7 +61,7 @@ h3 {
 
 h1 {
   text-transform: uppercase;
-  color: #325283;
+  color: #444;
   font-size: 2.5rem;
   font-weight: 900;
   letter-spacing: 2px;
@@ -69,26 +69,27 @@ h1 {
 
 .underline {
   height: 2px;
-  background-color: #828eca;
+  background-color: #444;
   width: 200px;
 }
 
+
 .underline-name {
   height: 3px;
-  background-color: #325283;
+  background-color: #444;
   margin-top: 15px;
 }
 
 h2 {
   text-transform: uppercase;
-  color: #828eca;
+  color: #333;
   font-size: 1.5rem;
   font-weight: 700;
   margin: 10px 0;
 }
 
 .right h3 {
-  color: #828eca;
+  color: #444;
 }
 
 .right h4 {
@@ -118,7 +119,7 @@ h2 {
 }
 
 .project-link {
-  color: #325283;
+  color: #333;
 }
 
 .address {
@@ -165,7 +166,7 @@ h2 {
 .print-name {
   text-align: center;
   font-size: 1.2rem;
-  color: #325283;
+  color: #333;
   font-weight: 900;
 }
 
@@ -191,10 +192,6 @@ h2 {
     width: 60%;
     height: 200px;
     margin: 0 auto;
-  }
-
-  .profile-image {
-    border: 6px solid #325283;
   }
 
   h3 {
@@ -238,7 +235,7 @@ h2 {
   }
 
   .right h3 {
-    color: #828eca;
+    color: #333;
     font-size: 1rem;
     margin-top: 10px;
   }
@@ -263,8 +260,8 @@ h2 {
   }
 
   .github-link {
-    color: #325283;
-    border: 1px solid #325283;
+    color: #333;
+    border: 1px solid #444;
     padding: 2px 10px;
     border-radius: 5px;
   }
