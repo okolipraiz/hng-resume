@@ -1,3 +1,6 @@
+### 🔗 Resume Link
+
+
 ## Powered by;
 
 ![Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-sHpqLACuyww0476pGGjblK5DSPFA7tF5xQ&usqp=CAU)
@@ -8,4 +11,4 @@
 
 ### See resume at
 
-🔗 [Resume Link](https://segun-resume.netlify.app/)
+

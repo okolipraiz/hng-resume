@@ -5,4 +5,4 @@ const printName = (name) => {
   console.log(name)
 };
 
-window.addEventListener('DOMContentLoaded', printName('Raheem Segun Ibrahim'));
+window.addEventListener('DOMContentLoaded', printName('Okoli Agozirim Praise'));

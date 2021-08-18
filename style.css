@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;900&display=swap");
 
 * {
   box-sizing: border-box;
@@ -9,7 +9,7 @@
 body {
   background-color: #f9f5fc;
   color: #937e7c;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 48px;
   font-size: 16px;
 }
@@ -105,8 +105,7 @@ h2 {
 }
 
 .link {
-  font-style: italic;
-  font-weight: 900;
+  font-weight: 700;
   text-decoration: none;
   font-size: 1.2rem;
 }
@@ -200,7 +199,7 @@ h2 {
 
   h3 {
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 100;
     font-size: 1.3rem;
     margin: 5px 0;
   }
@@ -267,7 +266,7 @@ h2 {
     color: #325283;
     border: 1px solid #325283;
     padding: 2px 10px;
-    border-radius: 30px;
+    border-radius: 5px;
   }
 
   .footer-mobile {
